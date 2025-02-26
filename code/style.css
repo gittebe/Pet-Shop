@@ -20,6 +20,13 @@ h1 {
 		font-size: 4rem;
 	}
 }
+
+h2 {
+	color: antiquewhite;
+	font-size: 1.5rem;
+	font-weight: 400;
+}
+
 .header {
 	display: flex;
 	flex-direction:column;
@@ -28,4 +35,21 @@ h1 {
 	background-color: rgb(54, 53, 53);
 	width: 100%;
 	height: 20%;
+}
+main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin: 1% 5%;
+  padding-top: 5%;
+}
+
+.hero-news{
+	grid-column: span 4;
+	display: flex;
+	flex-direction: column;
+	min-height: 200px;
+	align-items: center;
+	border: 2px solid antiquewhite;
+	border-radius: 10px;
 }
