@@ -73,8 +73,6 @@ main {
 .news-card{
 	grid-column: span 4;
 	min-height: 150px;
-	display: flex;
-	flex-direction: column;
 }
 
 @media (min-width: 667px) {
