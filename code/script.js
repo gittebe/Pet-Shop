@@ -5,12 +5,14 @@ const body = document.body;
 // Check if dark mode has been saved (localStorage)
 if (localStorage.getItem('theme') === 'light') {
   body.classList.add('light-mode');
+  toggleButton.classList.add('light-mode');
   toggleButton.textContent = 'Light Mode';
 }
 
 // Event listener for button
 toggleButton.addEventListener('click', () => {
   body.classList.toggle('light-mode');
+  toggleButton.classList.toggle('light-mode');
   
   // toggle button text
   if (body.classList.contains('light-mode')) {

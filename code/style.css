@@ -20,6 +20,26 @@
 	color: antiquewhite;
   }
   
+  .toggle-theme-button-container{
+	display: grid;
+	justify-content: center;
+	margin: 10px;
+  }
+
+  .toggle-theme-button{
+	display: flex;
+	width: 4rem;
+	height: rem;
+	background-color: rgb(243, 243, 106);
+	align-items: center;
+	justify-content: center;
+	color:black;
+	text-decoration: underline;
+	font-weight: 800;
+	font-size: 1rem;
+	border-radius: 10px;
+  }
+
   /* Header */
   .header {
 	display: grid;
@@ -145,4 +165,8 @@
   body.light-mode .hero-news {
 	background-color: antiquewhite;
   }
-  
+
+  .toggle-theme-button.light-mode{
+	background-color: rgb(54, 53, 53);
+	color: antiquewhite;
+  }
