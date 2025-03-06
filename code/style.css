@@ -24,12 +24,13 @@
 	display: grid;
 	justify-content: center;
 	margin: 10px;
+	height: 5rem;
   }
 
   .toggle-theme-button{
 	display: flex;
-	width: 4rem;
-	height: rem;
+	width: 5rem;
+	height: 5 rem;
 	background-color: rgb(243, 243, 106);
 	align-items: center;
 	justify-content: center;
@@ -37,7 +38,14 @@
 	text-decoration: underline;
 	font-weight: 800;
 	font-size: 1rem;
-	border-radius: 10px;
+	border-radius: 50px;
+	cursor: pointer;
+	padding: 10px;
+  }
+
+  .toggle-theme-button:hover{
+	width: 6rem;
+	height: 6rem;
   }
 
   /* Header */
