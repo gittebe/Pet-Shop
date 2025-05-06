@@ -9,3 +9,6 @@ Websites like this are ideal for static content: they load quickly, need minimal
 - Responsive layout: works on mobile, tablet, and desktop.
 - Clean design with accessible color contrast and structure.
 - Service cards with images and descriptions.
+
+# Watch live
+https://pet-shop-paws-and-whiskers.netlify.app/
